@@ -1,5 +1,10 @@
 import tkinter as tk
+from tkinter import messagebox
 from filechooser import choose_file
+from rembg import remove
+from PIL import Image
+import os
+
 
 file_name = "escolher imagem"
 file_path = ''
@@ -19,12 +24,22 @@ def get_file_path():
         path_array = file_name.split("/") 
         file_name = path_array[len(path_array) - 1]
         file_chosen = True
-        print(file_name)
-        print(file_path)
         update_frame()
 
 def remove_background():
-    pass
+    global file_name
+    global file_chosen
+    if file_name != "escolher imagem" :
+        image_with_background = Image.open(file_path)
+        image_without_background = remove(image_with_background)
+        output_path = str(file_path).replace(file_name, "out.png")
+        image_without_background.save(output_path)
+        if os.path.exists(output_path) :
+            messagebox.showinfo("processo finalizado", f"A imagem com fundo removido foi salva em:\n\n{output_path}")
+        file_name = "escolher imagem"
+        file_chosen = False
+        update_frame()
+        
 
 
 def update_frame():
@@ -63,6 +78,7 @@ def update_frame():
 
     button = tk.Button(
         main_frame, 
+        command=remove_background,
         text="Remover Fundo",
         bg='#000000',
         fg='#ffffff',
