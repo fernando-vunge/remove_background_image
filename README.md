@@ -6,17 +6,19 @@
 
 Siga esses passos para instalar o esse prototipo no seu computador
 
->baixar do repositorio git
+*baixar do repositorio git*
 
 ```
     git clone https://github.com/fernando-vunge/remove_background_image.git
 ```
 
->entre na pasta
+*entre na pasta*
 
 ```
     cd remove_background_image/
 ```
+
+---
 
 >**execucao**
 
