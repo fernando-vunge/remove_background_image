@@ -8,7 +8,7 @@
 
 #### INSTALACAO
 
-*Siga esses passos para instalar o esse prototipo no seu computador*
+*Siga esses passos para instalar esse prototipo no seu computador*
 
 *baixe o repositorio git!*
 
@@ -37,6 +37,12 @@
 ```
     python app.py
 ```
+---
+
+![Programa executando](/assets/img/image.png)
+
+![Depois de escolher uma imagem](/assets/img/image2.png)
+
 ---
 
 >Este projecto foi inspirado nesse [artigo](https://terminalroot.com.br/2022/11/remova-facilmente-fundo-de-imagens-com-python.html) do blog terminalroot.com.br
