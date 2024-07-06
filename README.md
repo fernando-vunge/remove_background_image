@@ -2,23 +2,41 @@
 
 #### Construi esse sistema grafico para fazer uso da biblioeteca ***rembg*** para remover fundos de imagem (beta version)
 
->**instalacao**
+---
 
-Siga esses passos para instalar o esse prototipo no seu computador
+---
 
-*baixar do repositorio git*
+#### INSTALACAO
+
+*Siga esses passos para instalar o esse prototipo no seu computador*
+
+*baixe o repositorio git!*
 
 ```
     git clone https://github.com/fernando-vunge/remove_background_image.git
 ```
 
-*entre na pasta*
+*entre na pasta!*
 
 ```
     cd remove_background_image/
 ```
+*use o pip para instalar a biblioteca ***rembg*** !*
+
+```
+   pip install rembg
+```
+
 
 ---
 
->**execucao**
+#### EXECUCAO
 
+*execute o ficheiro app.py*
+
+```
+    python app.py
+```
+---
+
+>Este projecto foi inspirado nesse [artigo](https://terminalroot.com.br/2022/11/remova-facilmente-fundo-de-imagens-com-python.html) do blog terminalroot.com.br
