@@ -1,9 +1,9 @@
 # remove background image
 
-#### Construi esse sistema grafico para fazer uso da biblioeteca ***rembg*** para remover fundos de imagem (beta version)
+#### Construi essa interface grafica para fazer uso da biblioeteca ***rembg*** para remover fundos de imagens, ou melhor, imprime uma copia da imagem original, mas sem o fundo
 
 >***⚠ Atencao:***
->>**a primeira vez que executar o programa tera que estar conecatado a internet e vai demorar alguns minutos a terminar o processo**
+>>**a primeira vez que executar o programa tera que estar conecatado a internet e vai demorar cerca de um minuto a terminar o processo**
 
 >>**MAS DEPOIS DISSO PODERA USAR O PROGRAMA SEMPRE OFFLINE , E O PROCESSO DEMORARA APENAS SEGUNDOS**
 
