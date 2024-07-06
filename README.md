@@ -2,6 +2,10 @@
 
 #### Construi esse sistema grafico para fazer uso da biblioeteca ***rembg*** para remover fundos de imagem (beta version)
 
+>***⚠ Atencao:***
+>***a primeira vez que executar o programa tera que estar conecatado a internet e vai demorar alguns minutos a terminar o processo***
+>***MAS DEPOIS DISSO PODE USAR O PROGRAMA OFFLINE, E PROCESSO DEMORARA APENAS SEGUNDOS***
+
 ---
 
 ---
